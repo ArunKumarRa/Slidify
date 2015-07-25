@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quality</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Quality">
+  <meta name="author" content="Arun">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Quality</h1>
+    <h2>Calculating Quality</h2>
+    <p>Arun<br/>Learning</p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>1.Created a Application ,may be useful for few vendors who wants to calculate the amount of waste they are receiving when they are getting orders from there vendors</p>
+
+<p>2.With the help of this App, they can enter the total number of goods they recived and by removing Waste they can find out what is the % of Good amount</p>
+
+<p>3.Percentage of Good Amount we recived is the Quality</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Small Story</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Example:</p>
+
+<p>1) A Vegetable shop daily get some stock from there vendors</p>
+
+<p>2)So once the stock is recived the Shop owner would like to measure the amount of Waste he recived from the vendor</p>
+
+<p>3)He would measure the good amount recived and  pay money for good.So that the Vendor would be more carefull for next time</p>
+
+<p>4) Qulaity percent would be calculated to do this. </p>
+
+<p>I would do a small calculation to illustrate this in the Next slide</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Calculation</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>1)Let us think that the Shop keeper recived 50 kg&#39;s of potatoes</p>
+
+<p>2)Out of Which 10 kg is waste. Let us see What is the Quality</p>
+
+<pre><code class="r">TotalPotatoesWeight &lt;- 50
+Waste&lt;-10
+GoodPotatoesWeight &lt;- TotalPotatoesWeight -Waste
+Quality &lt;- (GoodPotatoesWeight/TotalPotatoesWeight)*100
+Quality
+</code></pre>
+
+<pre><code>## [1] 80
+</code></pre>
+
+<p>So the Quality is calculated as 80%</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Conclusion</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>1) So This how we can use this App .</p>
+
+<p>2)Just giving the </p>
+
+<p>a)Total Goods </p>
+
+<p>b)Waste </p>
+
+<p>Should calculate Quality</p>
+
+<p>Note:This App has nothing to do with real word. Just an Imaginary Stuff</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Thank you</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Small Story'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Calculation'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Conclusion'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='Thank you'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
